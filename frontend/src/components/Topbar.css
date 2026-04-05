@@ -1,0 +1,112 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 52px;
+  padding: 0 16px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E2E8F0;
+  flex-shrink: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  color: #64748B;
+  transition: background 0.15s;
+}
+.topbar-back:hover { background: #F1F5F9; }
+
+.topbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #1E3A8A;
+}
+
+.logo-icon {
+  font-size: 18px;
+  color: #3B82F6;
+}
+
+.topbar-sep { color: #CBD5E1; font-size: 18px; }
+
+.topbar-title {
+  font-size: 14px;
+  color: #334155;
+  max-width: 320px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slide-counter {
+  font-size: 12px;
+  color: #64748B;
+  background: #F1F5F9;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-left: 12px;
+  font-weight: 500;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-ghost {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border-radius: 7px;
+  font-size: 13px;
+  color: #334155;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.btn-ghost:hover { background: #F1F5F9; }
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #F1F5F9;
+  color: #1E3A8A;
+  transition: background 0.15s;
+}
+.btn-primary:hover { background: #E2E8F0; }
+
+.btn-present {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #06B6D4;
+  color: white;
+  transition: background 0.15s, transform 0.1s;
+}
+.btn-present:hover { background: #0891B2; transform: translateY(-1px); }
